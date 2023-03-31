@@ -3,16 +3,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .banner-container{
-    background-color: #CACACA;
-    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
-
+    background-color: rgb(131, 46, 46);
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Retro-Aesthetic-Wallpaper-HD.png);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .banner-column{
-    background-color: #8D8D8D;
+    background-color: #b94343;
 }
 .navbar-container{
     top: 0;
