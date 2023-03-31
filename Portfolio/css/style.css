@@ -1,0 +1,78 @@
+body{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-container{
+    background-color: #CACACA;
+    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWJzdHJhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-column{
+    background-color: #8D8D8D;
+}
+.navbar-container{
+    top: 0;
+    background-color: #262B37;
+    position: sticky;
+    z-index: 2;
+}
+.about-container{
+    background-color: darkcyan;
+}
+.education-container{
+    background-color: #EEEEEE;
+}
+
+.bg-redtype{
+    background-color: #FB857F;
+}
+.bg-redtype:hover{
+    color: #262B37!important;
+}
+.redtype-color{
+    color:#FB857F ;
+}
+.circle-edu{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.project-container{
+    background-color: #2BB3DD;
+}
+.card-p{
+    padding: 3px;
+    background-color: #FB857F;
+}
+.card-body-p{
+    padding: 5px;
+    background-color: #262B37;
+}
+.form-container{
+    background-color: #474D5D;
+}
+.inner-form{
+    background-color: #585F73;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #2BB3DD;
+}
+.circle:hover{
+    background-color: #262B37;
+}
