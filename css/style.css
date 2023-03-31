@@ -19,59 +19,27 @@ body{
     position: sticky;
     z-index: 2;
 }
-.about-container{
-    background-color: darkcyan;
+/* this is about section */
+#profile{
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
 }
-.education-container{
-    background-color: #EEEEEE;
+.portrait,img{
+    border-radius: 50%;
 }
 
-.bg-redtype{
-    background-color: #FB857F;
+
+/* icon customization */
+
+.big-icon{
+    font-size: 2rem;
 }
-.bg-redtype:hover{
-    color: #262B37!important;
-}
-.redtype-color{
-    color:#FB857F ;
-}
-.circle-edu{
-    background-color: #FB857F;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    
-}
-.project-container{
-    background-color: #2BB3DD;
-}
-.card-p{
-    padding: 3px;
-    background-color: #FB857F;
-}
-.card-body-p{
-    padding: 5px;
-    background-color: #262B37;
-}
-.form-container{
-    background-color: #474D5D;
-}
-.inner-form{
-    background-color: #585F73;
-}
-.footer{
-    background-color: #2BB3DD;
-}
-.circle{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+.fa{
     display: inline-block;
-    background-color: white;
-    font-size: 40px;
-    text-align: center;
-    color: #2BB3DD;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
 }
-.circle:hover{
-    background-color: #262B37;
-}
+
+/* end of about section  */
