@@ -111,56 +111,10 @@ h3.article-title a:hover {
   transition: color 0.6s ease;
 }
 
-a:hover,
-a:focus {
-  color: #005181;
-}
-
-img,
-video {
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
 .img-responsive {
   /* Extend Bootstrap declaration with centering. */
   margin: 0 auto;
 }
-
-figcaption:before {
-  font-weight: 700;
-  text-transform: uppercase;
-  content: "Figure " counter(captions) ": ";
-}
-
-figcaption {
-  display: block;
-  margin-top: 0.75em;
-  line-height: 1.25;
-  font-size: 1rem;
-  margin-bottom: 1.65rem;
-  font-family: "Lato", sans-serif;
-  counter-increment: captions;
-}
-
-figcaption h4 {
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 0;
-}
-
-pre,
-code {
-  font-family: "Roboto Mono", "Courier New", "Courier", monospace;
-}
-
-pre {
-  margin: 0 0 1rem 0;
-  overflow: auto;
-}
-
 /* Quotes */
 blockquote {
   padding: 0.5rem 1rem;
@@ -187,6 +141,11 @@ blockquote p:last-child {
   }
 }
 
+/*************************************************
+  *  Navigation Bar
+  **************************************************/
+
+  
 /*************************************************
   *  Home Sections
   **************************************************/
@@ -842,173 +801,6 @@ footer a#back_to_top i {
 .btn-danger.btn-outline:hover {
   color: #fff;
 }
-
-/*************************************************
-  *  Navigation Bar
-  **************************************************/
-
-.navbar {
-  min-height: 70px !important;
-}
-
-/* Prevent navbar hiding initial content when jumping to in-page anchor. */
-*[id]:not([id^="fn"]):before {
-  display: block;
-  content: " ";
-  margin-top: -70px;
-  height: 70px;
-  visibility: hidden;
-}
-.navbar-default {
-  background: #fff;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-}
-
-nav#navbar-main li {
-  font-size: 16px;
-}
-
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > a:focus,
-.navbar-default .navbar-nav > a:hover {
-  white-space: nowrap;
-  -webkit-transition: 0.2s ease;
-  transition: 0.2s ease;
-  color: #34495e;
-  font-weight: 600;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  color: #0095eb;
-  font-weight: 700;
-  background-color: transparent !important; /* Override Bootstrap. */
-}
-.navbar-brand,
-.navbar-nav li a {
-  height: inherit;
-  line-height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.dropdown-menu > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: 400;
-  line-height: 1.42857143;
-  color: #34495e;
-  white-space: nowrap;
-}
-
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:focus,
-.dropdown-menu > .active > a:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: #0095eb;
-  outline: 0;
-}
-
-.navbar-default .navbar-brand {
-  text-transform: lowercase;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #2b2b2b;
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar {
-    min-height: 50px !important;
-  }
-
-  /* Prevent navbar hiding initial content when jumping to in-page anchor. */
-  *[id]:not([id^="fn"]):before {
-    margin-top: -50px;
-    height: 50px;
-  }
-
-  .navbar-brand,
-  .navbar-nav li a {
-    height: inherit;
-    line-height: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-
-  .navbar-header {
-    float: none;
-    min-height: inherit;
-  }
-
-  .navbar-left,
-  .navbar-right {
-    float: none !important;
-  }
-
-  .navbar-toggle {
-    display: block;
-  }
-
-  .navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 1px;
-  }
-
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-
-  .navbar-nav {
-    float: none !important;
-    margin-top: 7.5px;
-  }
-
-  .navbar-nav > li {
-    float: none;
-  }
-
-  .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: normal;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    position: static;
-    float: none;
-    width: auto;
-    margin-top: 0;
-    background-color: transparent;
-    border: 0;
-    box-shadow: none;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    padding: 5px 15px 5px 25px;
-    line-height: 20px;
-    color: #34495e;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-    color: inherit;
-    background-color: transparent;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #0095eb;
-    background-color: transparent;
-  }
-
-  .collapse.in {
-    display: block !important;
-  }
-}
-
 /*************************************************
   *  Alerts
   **************************************************/
