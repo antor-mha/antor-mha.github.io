@@ -8,30 +8,12 @@
  *  Core
  **************************************************/
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-.row:after,
-.row:before {
-  content: " ";
-  display: table;
-}
-
 html {
   font-family: "Merriweather", serif;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
 }
-@media screen and (min-width: 58em) {
-  html {
-    font-size: 16px;
-  }
-}
-
 body {
   font-family: inherit;
   font-size: 1rem;
@@ -41,13 +23,6 @@ body {
   padding-top: 0;
   counter-reset: captions;
 }
-@media screen and (max-width: 1200px) {
-  /* Match max-width of .nav-bar query. */
-  body {
-    margin-top: 51px; /* Offset body content by navbar height. */
-  }
-}
-
 /* Body text */
 p {
   margin-top: 0;
@@ -144,7 +119,25 @@ blockquote p:last-child {
 /*************************************************
   *  Navigation Bar
   **************************************************/
-
+  *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  nav{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+  }
+  a.navbar-brand{
+    color:black;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
   
 /*************************************************
   *  Home Sections
@@ -419,8 +412,8 @@ h3.article-title {
 }
 
 /*.article-list-item:last-child {
-   margin-bottom: 0 !important;
- }*/
+  margin-bottom: 0 !important;
+  }*/
 
 .article-list-item .article-metadata {
   margin-bottom: 5px;
