@@ -13,33 +13,6 @@ body{
 .banner-column{
     background-color: #b94343;
 }
-.navbar-container{
-    top: 0;
-    background-color: #262B37;
-    position: sticky;
-    z-index: 2;
-}
 /* this is about section */
-#profile{
-    text-align: center;
-    padding: 30px 10px;
-    position: relative;
-}
-.portrait,img{
-    border-radius: 50%;
-}
-
-
-/* icon customization */
-
-.big-icon{
-    font-size: 2rem;
-}
-.fa{
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
 
 /* end of about section  */
