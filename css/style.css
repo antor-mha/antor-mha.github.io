@@ -1,10 +1,4 @@
 /*************************************************
- *  Hugo Academic: an academic theme for Hugo.
- *  Designed by @GeorgeCushen.
- *  https://github.com/gcushen/hugo-academic
- **************************************************/
-
-/*************************************************
  *  Core
  **************************************************/
 
@@ -35,14 +29,6 @@ ol,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-/* Navigation bar text */
-.navbar-default {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.25;
-  text-rendering: optimizeLegibility;
 }
 
 /* Headings */
@@ -134,6 +120,7 @@ blockquote p:last-child {
     color: #fff;
     font-weight: bold;
     font-size: 24px;
+    text-decoration: none;
   }
   
   .navbar-toggler {
@@ -314,6 +301,72 @@ ul.ul-edu li .description p.institution {
 }
 
 /*************************************************
+  *  Experience Section
+  **************************************************/
+
+  /* .experience-containers{} */
+
+  .experience-containers p a{
+  text-decoration: none;
+}
+
+.experience-containers h2 {
+  text-decoration: none;
+  margin-top: 0rem !important;
+}
+
+.experience-containers p {
+  margin-bottom: 5px !important;
+}
+
+.experience-containers p a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.experience-containers .exp-work-duration {
+  margin-top: 0rem !important;
+  font-size: 13px;
+  color: #122b40;
+}
+
+.experience-containers .exp-work-duration .exp-work-duration-date {
+  margin-left: 8px;
+  margin-right: 6%;
+}
+
+.experience-containers .exp-work-duration .exp-work-type {
+  margin-left: 8px;
+}
+
+.experience-containers .exp-work-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  color: darkslategrey;
+}
+
+.experience-containers .exp-work-worked {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.experience-containers .exp-work-tech {
+  margin-top: 5px;
+}
+
+.experience-containers .exp-work-tech span {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.85);
+  border: 0;
+  border-radius: 8px;
+  vertical-align: baseline;
+  background-color: #e6e9ec;
+}
+/*************************************************
   *  Sharing
   **************************************************/
 
@@ -398,6 +451,11 @@ h3.article-title {
 .article-title a {
   color: #151515;
   transition: color 0.6s ease;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.article-tags a{
+  text-decoration: none;
 }
 
 .article-metadata {
@@ -945,64 +1003,7 @@ div.alert a:hover {
   color: #999;
 }
 
-/* .experience-containers{} */
 
-.experience-containers h2 {
-  text-decoration: none;
-  margin-top: 0rem !important;
-}
-
-.experience-containers p {
-  margin-bottom: 5px !important;
-}
-
-.experience-containers p a:hover {
-  color: darkblue;
-  text-decoration: none;
-}
-
-.experience-containers .exp-work-duration {
-  margin-top: 0rem !important;
-  font-size: 13px;
-  color: #122b40;
-}
-
-.experience-containers .exp-work-duration .exp-work-duration-date {
-  margin-left: 8px;
-  margin-right: 6%;
-}
-
-.experience-containers .exp-work-duration .exp-work-type {
-  margin-left: 8px;
-}
-
-.experience-containers .exp-work-desc {
-  margin-top: 10px;
-  font-size: 13px;
-  color: darkslategrey;
-}
-
-.experience-containers .exp-work-worked {
-  margin-left: 20px;
-  margin-top: 10px;
-  font-size: 14px;
-  color: #000;
-}
-
-.experience-containers .exp-work-tech {
-  margin-top: 5px;
-}
-
-.experience-containers .exp-work-tech span {
-  padding: 5px;
-  font-size: 12px;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.85);
-  border: 0;
-  border-radius: 8px;
-  vertical-align: baseline;
-  background-color: #e6e9ec;
-}
 
 .skills-tech span {
   padding: 5px;
