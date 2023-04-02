@@ -1051,3 +1051,22 @@ div.alert a:hover {
   font-size: 15px !important;
   margin-left: 6px !important;
 }
+.pull-right{
+    float: right;
+    background-color: #e3e8eb00;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.pull-right:hover {
+  background-color: #555;
+  color: #fff;
+}
