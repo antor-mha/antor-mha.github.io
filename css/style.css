@@ -105,112 +105,110 @@ blockquote p:last-child {
 /*************************************************
   *  Navigation Bar
   **************************************************/
-  .navbar {
-    position: relative;
-    transition: .5s;
-    z-index: 999;
+.navbar {
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
 }
 
 .navbar.nav-sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .navbar .navbar-brand {
-    margin: 0;
-    font-size: 25px;
-    line-height: 0px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    transition: .5s;
-    
+  margin: 0;
+  font-size: 25px;
+  line-height: 0px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: 0.5s;
 }
 
 .navbar .navbar-brand img {
-    max-width: 100%;
-    max-height: 40px;
+  max-width: 100%;
+  max-height: 40px;
 }
 
 .navbar .dropdown-menu {
-    margin-top: 0;
-    border: 0;
-    border-radius: 0;
-    background: #f8f9fa;
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  background: #f8f9fa;
 }
 
 @media (min-width: 992px) {
-    .navbar {
-        position: absolute;
-        width: 100%;
-        padding: 30px 60px;
-        background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
-        z-index: 9;
-    }
-    
-    .navbar.nav-sticky {
-        padding: 10px 60px;
-        background: #ffffff !important;
-    }
-    
-    .navbar .navbar-brand {
-        color: #ffffff;
-    }
-    
-    .navbar.nav-sticky .navbar-brand {
-        color: #EF233C;
-    }
+  .navbar {
+    position: absolute;
+    width: 100%;
+    padding: 30px 60px;
+    background: transparent !important;
+    border-bottom: 1px dashed rgba(256, 256, 256, 0.2);
+    z-index: 9;
+  }
 
-    .navbar-light .navbar-nav .nav-link,
-    .navbar-light .navbar-nav .nav-link:focus {
-        padding: 10px 10px 8px 10px;
-        color: #ffffff;
-        font-size: 15px;
-        font-weight: 500;
-    }
-    
-    .navbar-light.nav-sticky .navbar-nav .nav-link,
-    .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #414141;
-    }
+  .navbar.nav-sticky {
+    padding: 10px 60px;
+    background: #ffffff !important;
+  }
 
-    .navbar-light .navbar-nav .nav-link:hover,
-    .navbar-light .navbar-nav .nav-link.active {
-        color: #111111;
-    }
-    
-    .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
-    .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #EF233C;
-    }
+  .navbar .navbar-brand {
+    color: #ffffff;
+  }
+
+  .navbar.nav-sticky .navbar-brand {
+    color: #ef233c;
+  }
+
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link:focus {
+    padding: 10px 10px 8px 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .navbar-light.nav-sticky .navbar-nav .nav-link,
+  .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
+    color: #414141;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #111111;
+  }
+
+  .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
+  .navbar-light.nav-sticky .navbar-nav .nav-link.active {
+    color: #ef233c;
+  }
 }
 
-@media (max-width: 991.98px) {   
-    .navbar {
-        padding: 15px;
-        background: #ffffff !important;
-    }
-    
-    .navbar .navbar-brand {
-        color: #EF233C;
-    }
-    
-    .navbar .navbar-nav {
-        margin-top: 15px;
-    }
-    
-    .navbar a.nav-link {
-        padding: 5px;
-    }
-    
-    .navbar .dropdown-menu {
-        box-shadow: none;
-    }
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 15px;
+    background: #ffffff !important;
+  }
+
+  .navbar .navbar-brand {
+    color: #ef233c;
+  }
+
+  .navbar .navbar-nav {
+    margin-top: 15px;
+  }
+
+  .navbar a.nav-link {
+    padding: 5px;
+  }
+
+  .navbar .dropdown-menu {
+    box-shadow: none;
+  }
 }
-  
-  
+
 /*************************************************
   *  Home Sections
   **************************************************/
@@ -344,9 +342,9 @@ ul.ul-edu li .description p.institution {
   *  Experience Section
   **************************************************/
 
-  /* .experience-containers{} */
+/* .experience-containers{} */
 
-  .experience-containers p a{
+.experience-containers p a {
   text-decoration: none;
 }
 
@@ -494,7 +492,7 @@ h3.article-title {
   text-decoration: none;
   font-weight: bolder;
 }
-.article-tags a{
+.article-tags a {
   text-decoration: none;
 }
 
@@ -1043,8 +1041,6 @@ div.alert a:hover {
   color: #999;
 }
 
-
-
 .skills-tech span {
   padding: 5px;
   font-size: 20px;
@@ -1090,20 +1086,20 @@ div.alert a:hover {
   font-size: 15px !important;
   margin-left: 6px !important;
 }
-.pull-right{
-    float: right;
-    background-color: #e3e8eb00;
-    color: #fff;
-    border: none;
-    padding: 10px 10px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+.pull-right {
+  float: right;
+  background-color: #e3e8eb00;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 .pull-right:hover {
   background-color: #555;
