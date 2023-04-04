@@ -25,30 +25,52 @@
     <title>mhantor | Home</title>
 
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="51">
 
     <!-- this is navbar section  -->
 
-    <div class="navbar navbar-expand-lg bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-dark navbar-dark sticky-top">
       <div class="container-fluid">
           <a href="index.html" class="navbar-brand">mhantor</a>
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
+          <button type="button" class="navbar-toggler navbar-toggler-right collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
           </button>
-
-          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
               <div class="navbar-nav ml-auto">
+                <ul class="nav nav-tabs nav-tabs">
+                  <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about">Home</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#works">Experience</a>
+  
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link " href="#publications">Publications</a>
+  
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link " href="#blog">Blog</a>
+  
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link " href="https://www.flickr.com/photos/167004247@N08/with/46393572482/" target="_blank">Photography</a>
+  
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link " href="#contact">Contact</a>
+  
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link " href="#resume">Resume</a>
+  
+                  </li>
+                </ul>
               </div>
           </div>
       </div>
-  </div>
+    </nav>
     
 
     <span id="homepage" style="display: none"></span>
@@ -56,29 +78,25 @@
     <!-- this is about section  -->
     <section id="about" class="home-section">
       <div class="container">
-        
-  <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <div class="col-xs-12 col-md-4">
-      <div id="profile">
-        
-        <div class="portrait" itemprop="image">
-          <img src="/img/Antor.png" alt="Photo of Antor">
-        </div>
-        <div class="portrait-title">
-          <h2 itemprop="name">Mehedi Hasan Antor</h2>
-          <h3 itemprop="jobTitle" style="font-size: 16px;">Web Developer</h3>
-          <h3 itemprop="worksFor">DIU, Bangladesh</h3>
-        </div>
+          <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <div class="col-xs-12 col-md-4">
+              <div id="profile">
+                <div class="portrait" itemprop="image">
+                  <img src="/img/Antor.png" alt="Photo of Antor">
+                </div>
+
+          <div class="portrait-title">
+            <h2 itemprop="name">Mehedi Hasan Antor</h2>
+            <h3 itemprop="jobTitle" style="font-size: 16px;">Web Developer</h3>
+            <h3 itemprop="worksFor">DIU, Bangladesh</h3>
+          </div>
   
         <ul class="social-icon" aria-hidden="true">
-          
-          
           <li>
             <a href="mailto:hasan.mhantor404@gmail.com" target="_blank">
               <i class="fa fa-envelope big-icon"></i>
             </a>
           </li>
-          
           
           <li>
             <a href="https://twitter.com/antor007_" target="_blank">
@@ -86,13 +104,11 @@
             </a>
           </li>
           
-          
           <li>
             <a href="/https://github.com/antor-mha" target="_blank">
               <i class="fa fa-github big-icon"></i>
             </a>
           </li>
-          
           
           <li>
             <a href="https://www.linkedin.com/in/mehedi-hasan-antor-627868211/" target="_blank">
@@ -112,15 +128,9 @@
             From: <b>Bangladesh</b> | Lives in: <b>Tongi, Gazipur</b>
           </div>
         </ul>
-        <ul style="font-size: 8px">
-          Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> & Hosted with <a href="https://pages.github.com/"
-            target="_blank">Github Pages</a>.
-        </ul>
       </div>
     </div>
-    <div class="col-xs-12 col-md-8" itemprop="description">
-  
-      
+    <div class="col-xs-12 col-md-8" itemprop="description">   
   
   <p><br>
   Software Engineer and Tech Lead at Google. Building Software to Automate Network Design, Delivery and Monitoring at Planet Scale.</p>

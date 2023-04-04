@@ -110,14 +110,9 @@ blockquote p:last-child {
   transition: 0.5s;
   z-index: 999;
 }
-
-.navbar.nav-sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+.navbar .container-fluid .navbar-brand:hover{
+  color: red;
 }
-
 .navbar .navbar-brand {
   margin: 0;
   font-size: 25px;
@@ -127,21 +122,8 @@ blockquote p:last-child {
   transition: 0.5s;
 }
 
-.navbar .navbar-brand img {
-  max-width: 100%;
-  max-height: 40px;
-}
-
-.navbar .dropdown-menu {
-  margin-top: 0;
-  border: 0;
-  border-radius: 0;
-  background: #f8f9fa;
-}
-
 @media (min-width: 992px) {
   .navbar {
-    position: absolute;
     width: 100%;
     padding: 30px 60px;
     background: transparent !important;
@@ -149,39 +131,21 @@ blockquote p:last-child {
     z-index: 9;
   }
 
-  .navbar.nav-sticky {
-    padding: 10px 60px;
-    background: #ffffff !important;
-  }
-
-  .navbar .navbar-brand {
-    color: #ffffff;
-  }
-
-  .navbar.nav-sticky .navbar-brand {
-    color: #ef233c;
-  }
-
-  .navbar-light .navbar-nav .nav-link,
-  .navbar-light .navbar-nav .nav-link:focus {
+  .navbar-dark .navbar-nav .nav-link,
+  .navbar-dark .navbar-nav .nav-link:focus {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #a32323;
     font-size: 15px;
     font-weight: 500;
   }
 
-  .navbar-light.nav-sticky .navbar-nav .nav-link,
-  .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-    color: #414141;
-  }
-
-  .navbar-light .navbar-nav .nav-link:hover,
-  .navbar-light .navbar-nav .nav-link.active {
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link.active {
     color: #111111;
   }
 
-  .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
-  .navbar-light.nav-sticky .navbar-nav .nav-link.active {
+  .navbar-dark.sticky-top .navbar-nav .nav-link:hover,
+  .navbar-dark.sticky-top .navbar-nav .nav-link.active {
     color: #ef233c;
   }
 }
@@ -189,11 +153,7 @@ blockquote p:last-child {
 @media (max-width: 991.98px) {
   .navbar {
     padding: 15px;
-    background: #ffffff !important;
-  }
-
-  .navbar .navbar-brand {
-    color: #ef233c;
+    background: #850202 !important;
   }
 
   .navbar .navbar-nav {
@@ -202,10 +162,6 @@ blockquote p:last-child {
 
   .navbar a.nav-link {
     padding: 5px;
-  }
-
-  .navbar .dropdown-menu {
-    box-shadow: none;
   }
 }
 
@@ -406,7 +362,7 @@ ul.ul-edu li .description p.institution {
 }
 /*************************************************
   *  Sharing
-  **************************************************/
+  **************************************************
 
 .share-box {
   float: right;
