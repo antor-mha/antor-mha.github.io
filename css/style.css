@@ -110,7 +110,7 @@ blockquote p:last-child {
   transition: 0.5s;
   z-index: 999;
 }
-.navbar .container-fluid .navbar-brand:hover{
+.navbar .container-fluid .navbar-brand:hover {
   color: red;
 }
 .navbar .navbar-brand {
@@ -297,8 +297,6 @@ ul.ul-edu li .description p.institution {
 /*************************************************
   *  Experience Section
   **************************************************/
-
-/* .experience-containers{} */
 
 .experience-containers p a {
   text-decoration: none;
@@ -808,89 +806,30 @@ footer a#back_to_top i {
   color: #899596;
 }
 
-/*************************************************
-  *  Button Primary: Color Override
-  **************************************************/
-
-.btn-primary {
-  border-color: #0095eb;
-  background: #0095eb;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-  background: #0095eb;
-}
-
-/*************************************************
-  *  Toolbar Buttons
-  **************************************************/
-
-.btn-toolbar .btn {
-  font-size: 0.9rem;
-  padding: 10px 14px 9px;
-  border: none;
-}
-
-.btn-toolbar .btn:first-child {
-  border-radius: 6px 0 0 6px;
-}
-
-.btn-toolbar .btn:last-child {
-  border-radius: 0 6px 6px 0;
-}
-
-.btn-toolbar .btn.btn-primary:hover,
-.btn-toolbar .btn.btn-primary:focus {
-  background-color: rgba(0, 149, 235, 0.6);
-}
-
-.btn-toolbar .btn.btn-primary:active,
-.btn-toolbar .btn.btn-primary.active {
-  background-color: rgba(0, 89, 175, 1);
-}
 
 /*************************************************
   *  Button Outlines
   **************************************************/
 
-.btn-outline {
-  background-color: transparent;
-  color: inherit;
-  transition: all 0.5s;
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.btn-primary.btn-outline {
-  color: #0095eb;
-  border-color: #0095eb;
+.info {
+  border-color: #21f3a6;
+  color: dodgerblue;
 }
 
-.btn-success.btn-outline {
-  color: #5cb85c;
+.info:hover {
+  background: #2196f3;
+  color: white;
 }
 
-.btn-info.btn-outline {
-  color: #5bc0de;
-}
-
-.btn-warning.btn-outline {
-  color: #f0ad4e;
-}
-
-.btn-danger.btn-outline {
-  color: #d9534f;
-}
-
-.btn-primary.btn-outline:hover,
-.btn-success.btn-outline:hover,
-.btn-info.btn-outline:hover,
-.btn-warning.btn-outline:hover,
-.btn-danger.btn-outline:hover {
-  color: #fff;
-}
 /*************************************************
   *  Alerts
   **************************************************/
