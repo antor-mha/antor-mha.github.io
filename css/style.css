@@ -974,7 +974,7 @@ div.alert a:hover {
   vertical-align: baseline;
   background-color: #e6e9ec;
 }
-
+/* contact section   */
 #contact-profile {
   text-align: center;
 }
@@ -998,6 +998,9 @@ div.alert a:hover {
   font-size: 15px !important;
   margin-left: 6px !important;
 }
+
+/* Pull right button */
+
 .pull-right {
   float: right;
   background-color: #e3e8eb00;
