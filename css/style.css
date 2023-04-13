@@ -223,14 +223,15 @@ blockquote p:last-child {
   position: relative;
 }
 
-#profile .portrait img {
-  width: 200px;
+#profile .portrait img { 
+  width: 195px;
   height: 200px;
   margin: 0 auto;
+  border: 3px solid gray;
   border-radius: 50%;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
+  -moz-background-size: cover; 
 }
 
 #profile .portrait-title h2 {
