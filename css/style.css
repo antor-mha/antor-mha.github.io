@@ -13,7 +13,7 @@ html {
   line-height: 1.65;
 }
 body {
-  font-family: inherit;
+  font-family:inherit;
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
@@ -25,6 +25,7 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: medium;
 }
 
 /* Lists */
@@ -119,7 +120,6 @@ blockquote p:last-child {
 }
 .navbar .navbar-brand {
   margin: 0;
-  font-size: 25px;
   line-height: 0px;
   font-weight: 700;
   letter-spacing: 2px;
