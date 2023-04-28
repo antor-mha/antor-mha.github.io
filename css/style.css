@@ -188,6 +188,10 @@ blockquote p:last-child {
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
+.home-section p{
+  font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .home-section {
     padding: 60px 0 60px 0;
