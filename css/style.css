@@ -533,7 +533,9 @@ h3.article-title {
   width: 100%;
   height: auto;
 }
-
+.article-banner img{
+  border: 2px solid darkslategray;
+}
 .article-style img,
 .article-style video {
   box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed,
