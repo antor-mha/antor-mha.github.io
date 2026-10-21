@@ -1,0 +1,48 @@
+:root{--bg:#f2f5f8;--ink:#13202c;--mute:#546473;--line:#d3dce4;--card:#fff;--accent:#1b5fc4;--flag:#ffd84a;--bad:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a24;--ink:#e8eef4;--mute:#9bacbb;--line:#26384a;--card:#16242f;--accent:#6aa5ff;--flag:#6b5a00;--bad:#ff8a80}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-999px;background:var(--ink);color:var(--bg);padding:.5rem 1rem;z-index:9}
+.skip:focus{left:1rem;top:1rem}
+.wrap{max-width:1040px;margin:0 auto;padding:0 1.25rem}
+.top{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;flex-wrap:wrap;gap:.5rem}
+.top .brand{font-weight:800;color:var(--ink);text-decoration:none}
+nav a{margin-left:1.25rem;color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover,nav a[aria-current]{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:3rem;align-items:center;padding:3rem 0 4rem}
+h1{font-size:clamp(2.3rem,6vw,4rem);line-height:1.03;letter-spacing:-.03em;font-weight:800;margin:0 0 1.2rem}
+h2{font-size:1.8rem;letter-spacing:-.02em;margin:0 0 1.4rem}
+h3{margin:0 0 .3rem;font-size:1.2rem}
+.lead{font-size:1.2rem;color:var(--mute);max-width:34ch;margin:0 0 1.5rem}
+.btn{display:inline-block;padding:.65rem 1.1rem;border-radius:6px;font-weight:700;text-decoration:none;margin:0 .6rem .6rem 0}
+.btn.p{background:var(--accent);color:#fff}
+.btn.s{border:1.5px solid var(--ink);color:var(--ink)}
+.mail{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1.25rem}
+.mail .hd{font-size:.85rem;color:var(--mute);border-bottom:1px solid var(--line);padding-bottom:.7rem;margin-bottom:.9rem}
+.mail p{margin:0 0 .8rem}
+.mail mark{background:transparent;color:inherit;border-radius:3px;padding:0 2px;transition:background .25s}
+.mail.on mark{background:var(--flag)}
+.mail button{font:inherit;font-weight:700;background:var(--ink);color:var(--bg);border:0;border-radius:6px;padding:.55rem 1rem;cursor:pointer}
+.verdict{display:none;margin-top:.9rem;font-size:.95rem}
+.mail.on .verdict{display:block}
+.verdict strong{color:var(--bad)}
+.verdict ul{margin:.4rem 0 0;padding-left:1.1rem}
+.note{font-size:.8rem;color:var(--mute);margin:.7rem 0 0}
+section{padding:3rem 0;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:210px 1fr;gap:1.5rem;padding:1.3rem 0;border-bottom:1px solid var(--line)}
+.row:first-of-type{padding-top:0}
+.row p{margin:0 0 .5rem;max-width:62ch}
+.mute{color:var(--mute);font-size:.92rem}
+dl{display:grid;grid-template-columns:210px 1fr;gap:.8rem 1.5rem;margin:0}
+dt{font-weight:700}
+dd{margin:0}
+.page{padding:2rem 0 3rem}
+.page h1{font-size:clamp(2rem,5vw,3rem)}
+.proj{padding:2rem 0;border-top:1px solid var(--line)}
+.proj dl{grid-template-columns:130px 1fr;margin-top:1rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--mute);font-size:.9rem}
+@media (max-width:760px){.hero,.two{grid-template-columns:1fr;gap:2rem}.row,dl,.proj dl{grid-template-columns:1fr;gap:.3rem}nav a{margin:0 1rem 0 0}}
